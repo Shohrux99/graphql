@@ -1,0 +1,17 @@
+@import 'styles/unit.scss';
+
+.wrapper {
+  background-color: #51267d;
+  padding: 30px;
+
+  .main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+
+    .content{
+      height: 150px;
+      overflow: hidden;
+    }
+  }
+}
